@@ -29,14 +29,14 @@ func main() {
 
 	//condition
 	if a == "hello" {
-		fmt.Println("a is hello")
+	   fmt.Println("a is hello")
 	} else if a == "world" {
-		fmt.Println("a is world")
+	   fmt.Println("a is world")
 	} else {
-		fmt.Println("a is not hello")
+	   fmt.Println("a is not hello")
 	}
 
 	if b == "" {
-		fmt.Println("do not keep any variable unused")
+	   fmt.Println("do not keep any variable unused")
 	}
 }
